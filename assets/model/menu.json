@@ -1,0 +1,34 @@
+{
+    "list": [
+      {
+        "id": "224471",
+        "name": "C.Wings",
+        "price": 250.00
+      },
+      {
+        "id": "224474",
+        "name": "ChickenRoll",
+        "price": 250.00
+      },
+      {
+        "id": "224477",
+        "name": "SpicyMixed",
+        "price": 215.00
+      },
+      {
+        "id": "224480",
+        "name": "HummusPERI",
+        "price": 215.00
+      },
+      {
+        "id": "224483",
+        "name": "RedDip",
+        "price": 205.00
+      },
+      {
+        "id": "224486",
+        "name": "Platter",
+        "price": 615.00
+      }
+    ]
+  }
