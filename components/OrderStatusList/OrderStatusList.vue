@@ -1,4 +1,5 @@
 <template>
+<!--checkbox'ta seçilen ürünlerin miktarını arttırıp azaltma ve ürünleri sepetten çıkarma işlemleri-->
   <div>
     <div v-for="item in create_order_state" class="flex items-center text-lg py-6 pl-4 border-bottom">
       <span class="flex-1">{{ item.menu.name }}</span>

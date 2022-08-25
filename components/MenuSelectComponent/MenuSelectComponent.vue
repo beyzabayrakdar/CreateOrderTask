@@ -1,4 +1,5 @@
 <template>
+<!--menü seçme checkbox tasarımı-->
   <VSelect :options="menu" label="name" multiple @input="onSelectChange">
     <template slot="option" slot-scope="option" >
       <div class="h-[48px] w-full flex items-center">
@@ -14,6 +15,7 @@
   </VSelect>
 </template>
 
+<!--checkbox yardımıyla sipariş oluşturma-->
 <script>
 import Vue from 'vue'
 import 'vue-select/dist/vue-select.css';

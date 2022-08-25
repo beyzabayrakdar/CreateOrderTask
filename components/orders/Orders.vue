@@ -1,9 +1,8 @@
 <template>
+<!--CreateOrder sayfasında oluşturulan siparişler bu sayfada görüntüleniyor-->
 <div class="pt-5">
   <div class="font-semibold text-2xl mt-[5px]">Accepted</div>
   <div class="py-10">
-
-
     <div v-if="orders.length > 0">
       <div v-for="order in orders" class="border rounded-md w-full p-5 flex flex-col">
         <table>
@@ -54,7 +53,7 @@
         </table>
         <div class="flex flex-wrap" v-if="order.items && order.items.length > 0">
           <span class="text-lg">Order Items</span>
-          <span v-for="item in order.items" class="px-3 py-1 bg-stone-200 mx-2 d-flex items-center rounded-lg">{{ item.menu.name }} x {{ item.quantity }}</span>
+          <span v-for="item in order.items" class="px-5 py-1 bg-stone-200 mx-2 d-flex items-center rounded-lg">{{ item.menu.name }} x {{ item.quantity }}</span>
         </div>
 
         <div v-if="order.message && order.message !== ''">

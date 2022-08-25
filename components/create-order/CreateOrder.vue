@@ -1,4 +1,5 @@
 <template>
+<!--sipariş sayfasının tasarımı yapılıyor-->
   <div class="pt-5">
     <div class="font-semibold text-2xl mt-[5px]">Create Orders</div>
     <form class="grid grid-cols-2 divide-x" @submit="submit">
@@ -24,7 +25,7 @@
         <textarea class="border border-[#CCCCCC] w-full mt-[10px] box border rounded text-lg font-semibold p-5" rows="5"> </textarea>
 
         <label class="block font-semibold font-size:18px h-[21px] mt-[20px] mb-[10px] text-l">Order Items</label>
-
+        
         <MenuSelectComponent />
         <OrderStatusList />
             </div>
@@ -46,6 +47,7 @@
             </tbody>
           </table>
           </div>
+          <!--Orders sayfasına bağlantı-->
         <div class="mt-10 text-right">
           <button type="submit" class="inline font-semibold text-xl w-[200px] h-[40px] bg-[#2A71FA] rounded text-white">Add Order</button>
           </div>

@@ -1,4 +1,5 @@
 <template>
+<!--Delivery Details kısmı, verilen siparişler listeleniyor-->
   <div>
     <label class="block ml-[20px] text-lg font-semibold">Delivery Details</label>
     <table class="min-w-full" v-if="create_order_state.length > 0">
