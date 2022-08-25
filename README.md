@@ -1,4 +1,7 @@
-# rs-challenge-app
+# CreateOrderTask
+## Overview
+
+In this project, you can create an order with your name and your phone number on the 'CreateOrder' page. Your order is created with the order number and the date and time. You can increase and decrease your product quantities. After clicking the 'Add Order' button, you will be directed to the 'Orders' page. In this page you can view your order. All orders are listed here.
 
 ## Build Setup
 
